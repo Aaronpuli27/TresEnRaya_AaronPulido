@@ -1,0 +1,30 @@
+#cellBtn {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-font-weight: bold;
+    -fx-font-size: 3em;
+    -fx-background-color: #b2e0ba;
+}
+#tabla{
+    -fx-background-color: #EAEAEA;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+#cellBtn:hover {
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #9b9d9e 0%, #7a7c7d 100%),
+            #7a7c7d,
+            #9b9d9e,
+            radial-gradient(center 50% 50%, radius 100%, #9b9d9e, #7a7c7d);
+}
+
+#cellBtn:disabled{
+    -fx-background-color: #42de5d ;
+}
+
+#botonModo > .radio-button{
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
